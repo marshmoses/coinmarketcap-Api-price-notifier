@@ -29,12 +29,11 @@ class CMC:
 
 if __name__ == "__main__":
     cmc = CMC(api.API_KEY)
+    #this get all coins listed in cmc
    # pp(cmc.getAllcoins())
+   #the below gets (prices,market cap,%,platforms to trade in and pairs to be compared with etc)
     pp(cmc.getPrices('BTC'))
-
-
-
- #the above code getsall coins with(name,slug,symbol and tokken address)
+#the above code getsall coins with(name,slug,symbol and tokken address)
 
 
 
